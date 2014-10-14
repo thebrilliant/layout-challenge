@@ -2,17 +2,25 @@
 <html>
 	<head>
 		<title>Dawg Pizza</title>
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" href="https:
+		//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<link rel="icon" href="img/pizza-icon.png" />
 	</head>
 	<body>
-		<main>
+		<main class="container-fluid">
 			<header>
 				<h1>Dawg Pizza</h1>
 				<h2>Feeding Hungry Huskies Since 2013</h2>
+				<nav role="navigation">
+				    <ul>
+				        <li><a href="#location">location</a></li>
+				        <li><a href="#menu">menu</a></li>
+				        <li><a href="#about">about</a></li>
+				    </ul>
+				</nav>
 			</header>
-				<section>
+				<section class="col-md-4">
 					<h2>Address</h2>
 					<p>
 						<a href="https://goo.gl/maps/CKrRF" itemprop="address">4529 University Way NE <br />Seattle, WA 98105</a>
@@ -22,7 +30,7 @@
 					<h2>To Order</h2>
 					<p>Call us at <a href="tel:1-206-555-1212">206-555-1212</a></p>
 				</section>
-				<section id="menu">
+				<section id="menu" class="col-md-6">
 				<h2>Our Menu</h2>
 				<h3>Meat Pies</h3>
 				<dl>
@@ -44,7 +52,7 @@
 				</dl>
 				</div>
 				</section>
-				<section>
+				<section class="col-md-12">
 				<h2>About Us</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 				</p>

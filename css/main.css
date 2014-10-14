@@ -1,9 +1,3 @@
-/* 
-your CSS rules and font imports should go here 
-delete this comment, add the import directives for your fonts
-and add the CSS rules as described in the challenge
-*/
-
 /* Imported fonts */
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300);
@@ -13,7 +7,6 @@ body {
 	font-size: 18px;
 	font-weight: 300;
 
-	background-image: url(../img/background.jpg);
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -63,7 +56,6 @@ header.h2 {
 }
 
 main {
-	margin: 20px 20px 20px 30%;
 	background-image: url(../img/ricepaper_v3.png);
 	opacity: 0.9;
 }
@@ -93,4 +85,21 @@ footer {
 	border-top: 5px solid #EC791F;
 	font-size: 80%;
 	text-align: right;
+}
+
+@media (min-width: 992px) {
+	body {
+		font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 18px;
+		font-weight: 300;
+
+		background-image: url(../img/background.jpg);
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+
+	main {
+		margin: 20px 20px 20px 30%;
+	}
 }
