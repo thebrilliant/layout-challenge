@@ -12,6 +12,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+.container-fluid {
+	margin-bottom: 0;
+}
+
 a {
 	text-decoration: none;
 	color: #0000AA;
@@ -50,9 +54,7 @@ header {
 }
 
 header.h2 {
-	font-size: 120%;
-	color: #EEEEEE;
-	margin: 0;
+	display: none;
 }
 
 main {
@@ -101,5 +103,11 @@ footer {
 
 	main {
 		margin: 20px 20px 20px 30%;
+	}
+
+	header.h2 {
+		font-size: 120%;
+		color: #EEEEEE;
+		margin: 0;
 	}
 }
