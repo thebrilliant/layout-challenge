@@ -23,6 +23,11 @@ nav ul {
 nav li {
 	display: inline-block;
 	margin-right: 1em;
+	color: #55E;
+}
+
+nav li:hover {
+	color: #00E;
 }
 
 a {
@@ -62,7 +67,7 @@ header {
 	color: #FFFFFF;
 }
 
-header.h2 {
+header h2 {
 	display: none;
 }
 
@@ -114,9 +119,20 @@ footer {
 		margin: 20px 20px 20px 30%;
 	}
 
-	header.h2 {
+	header h2 {
+		display: block;
 		font-size: 120%;
 		color: #EEEEEE;
 		margin: 0;
+	}
+
+	.container-fluid {
+		margin: 20px 20px 20px 30%;
+	}
+
+	nav {
+		top: 10;
+		right: 10;
+		/*position: relative;*/
 	}
 }
