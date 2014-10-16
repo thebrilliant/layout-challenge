@@ -61,6 +61,7 @@ h3 {
 }
 
 header {
+	position: relative;
 	padding: 1em;
 	background-color: #FA5A0F;
 	border-bottom: 5px solid #EA4A00;
@@ -80,7 +81,7 @@ section {
 	padding: 1em;
 }
 
-#menu {
+#menu, #menu .col-md-6 {
 	background-color: rgba(207, 205, 140, .5);
 }
 
@@ -131,8 +132,8 @@ footer {
 	}
 
 	nav {
-		top: 10;
-		right: 10;
-		/*position: relative;*/
+		position: absolute;
+		top: 10px;
+		right: 10px;
 	}
 }
